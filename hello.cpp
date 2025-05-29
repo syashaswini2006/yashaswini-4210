@@ -1,3 +1,4 @@
+i
 #ifndef TASK_H
 #define TASK_H
 
@@ -11,7 +12,7 @@ enum class Priority {
 };
 
 class Task {
-private:
+private:// Variables can be assigned 
     int id;
     std::string title;
     std::string description;
